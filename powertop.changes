@@ -1,0 +1,51 @@
+* Wed Jun 27 2012 Carsten Munk <carsten@mrproject.org> - 2.0
+- Upgrade to 2.0, fix MER#391
+
+* Wed Jul 20 2011 Chris Ferron <chris.e.ferron@linux.intel.com> - 1.98
+- removed old version taking up space
+
+* Thu May 19 2011 Arjan van de Ven <arjan@linux.intel.com> - 1.98
+- add --time option so QA can run 60 second samples (instead of 20)
+- fix bug where disk IO was not correctly recorded
+
+* Thu May 12 2011 Arjan van de Ven <arjan@linux.intel.com> - 1.98
+- fix wakeup blame bug (#17526)
+
+* Wed May 11 2011 Arjan van de Ven <arjan@linux.intel.com> - 1.98
+- update to 1.98
+
+* Tue Mar 22 2011 Peter J Zhu <peter.j.zhu@intel.com> - 1.97
+- Build for arm
+
+* Thu Mar 17 2011 Peter J Zhu <peter.j.zhu@intel.com> - 1.97
+- Update to 1.97 using autospectale, on behalf arjan
+
+* Tue Aug 10 2010 Auke Kok <auke-jan.h.kok@intel.com> - 1.13
+- Fix: display WoL warning even if interface is in use.
+
+* Thu Jul 22 2010 Arjan van de Ven <arjan@linux.intel.com> 1.13
+- Update to the new 1.13 release
+
+* Wed Dec 2 2009 Arjan van de Ven <arjan@linux.intel.com> 1.11
+- Add tests for Pinetrail CxSR feature
+
+* Mon Nov 23 2009 Arjan van de Ven <arjan@linux.intel.com> 1.11
+- Refresh to the current git snapshot of 1.12
+
+* Fri Nov 13 2009 Arjan van de Ven <arjan@linux.intel.com> 1.11
+- Update to the current git snapshot of 1.12; many new tests
+
+* Tue Apr 28 2009 Vivian Zhang <vivian.zhang@intel.com> 1.11
+- Update to 1.11
+
+* Tue Dec 16 2008 Anas Nashif <anas.nashif@intel.com> 1.10
+- Update spec file using latest spec-builder
+
+* Tue Dec 16 2008 Anas Nashif <anas.nashif@intel.com> 1.10
+- Update spec file using latest spec-builder
+
+* Thu Nov 26 2008 Arjan van de Van <arjan@linux.intel.com> 1.10
+- Update to 1.10
+
+* Fri Sep 26 2008 Yi Yang <yi.y.yang@intel.com> 1.9
+- First added.

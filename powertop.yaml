@@ -1,0 +1,29 @@
+Name       : powertop
+Version    : 2.1.1
+Release    : 1
+Group      : Applications/System
+Summary    : PowerTop is tool that is used for power diagnostics
+Description: |
+    PowerTop is tool that detects which Linux programs
+    and kernel tunables are resulting in the largest
+    power consumption and use of battery time. By
+    fixing (or closing) these applications or
+    processes, you can immediately see the power
+    savings in the tool. You'll also see the estimated
+    time left for battery power if you are running a
+    laptop.
+Sources    : 
+    - powertop-v%{version}.tar.bz2
+
+License: GPLv2
+PkgConfigBR:
+    - libpci
+    - ncursesw
+PkgBR:
+    - gettext
+    - intltool
+    - libnl-devel
+Files:
+    - "%doc COPYING"
+    - "%doc /usr/share/man/man8/powertop.8.gz"
+    - "%{_sbindir}/powertop"
