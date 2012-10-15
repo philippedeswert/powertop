@@ -42,7 +42,7 @@ laptop.
 %build
 # >> build pre
 # << build pre
-
+%autogen
 %configure --disable-static
 make %{?jobs:-j%jobs}
 
